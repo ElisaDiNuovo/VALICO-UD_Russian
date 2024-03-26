@@ -1,0 +1,172 @@
+# sent_id = 1
+# text = Ieri, al parco che si trova vicino al fiume, faceva un bellissimo tempo.
+1	Ieri	ieri	ADV	B	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	parco	parco	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	vicino	vicino	ADP	E	_	12	case	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fiume	fiume	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	5	punct	_	_
+14	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	17	amod	_	_
+17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 2
+# text = Tanta gente faceva una passeggiata; alcuni stavano a prendere il sole.
+1	Tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	gente	gente	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	passeggiata	passeggiata	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	3	punct	_	_
+7	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	nsubj	_	_
+8	stavano	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	prendere	prendere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sole	sole	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Insomma, tutti si sentivano come se fossero in un paradiso.
+1	Insomma	insomma	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	sentivano	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	come	come	SCONJ	CS	_	8	mark	_	_
+7	se	se	SCONJ	CS	_	6	fixed	_	_
+8	fossero	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	paradiso	paradiso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Però ad un certo punto è successa una cosa abbastanza particolare.
+1	Però	però	CCONJ	CC	_	7	cc	_	_
+2	ad	a	ADP	E	_	5	case	_	_
+3	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	certo	certo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	punto	punto	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	LOC=adv
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	successa	succedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+10	abbastanza	abbastanza	ADV	B	_	11	advmod	_	_
+11	particolare	particolare	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Praticamente c’era una coppia che si è messa ad urlare.
+1	Praticamente	praticamente	ADV	B	_	3	advmod	_	_
+2	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10	ad	a	ADP	E	_	11	mark	_	_
+11	urlare	urlare	VERB	V	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Non si sa per quale motivo, però probabilmente c’entrava un altro uomo, che si trovava vicino a loro.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	quale	quale	DET	DQ	Number=Sing|PronType=Int	6	det	_	_
+6	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	però	però	CCONJ	CC	_	11	cc	_	_
+9	probabilmente	probabilmente	ADV	B	_	11	advmod	_	_
+10	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	SpaceAfter=No
+11	entrava	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+12	un	un	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	altro	altro	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+19	vicino	vicino	ADP	E	_	21	case	_	_
+20	a	a	ADP	E	_	19	fixed	_	_
+21	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Secondo me, la ragazza cercava di dimostrare al suo fidanzato che lui era l’unico uomo per lei, che lei non conosceva quell’ altro ragazzo.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	dimostrare	dimostrare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	fidanzato	fidanzato	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	che	che	SCONJ	CS	_	18	mark	_	_
+14	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+15	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+16	l’	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+17	unico	unico	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	ccomp	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	25	punct	_	_
+22	che	che	SCONJ	CS	_	25	mark	_	_
+23	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	conosceva	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	_
+26	quell’	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	SpaceAfter=No
+27	altro	altro	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Però, alla fine, è successa una cosa straordinaria.
+1	Però	però	CCONJ	CC	_	8	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	fine	fine	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	LOC=adv|SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	successa	succedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	una	una	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+11	straordinaria	straordinario	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = La ragazza è stata portata via da quell’ altro uomo.
+1	La	la	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	portata	portare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	via	via	ADV	B	_	5	advmod	_	_
+7	da	da	ADP	E	_	10	case	_	_
+8	quell’	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	SpaceAfter=No
+9	altro	altro	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
